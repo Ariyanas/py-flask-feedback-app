@@ -16,6 +16,7 @@ ma = Marshmallow(app)
 
 # Routes, Models & Schema registration
 # from . import routes, schemas, models
+from . import routes
 
 # HTTP Error Handling
 @app.errorhandler(404) 
